@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login | The 1up</title>
+		
+		<!--Utilizando libreria Jquery-->
+		<script type="text/javascript" src="js/Funciones.js"></script>
+
+		<link rel="stylesheet" href="css/Master.css">
+	</head>
+<body>
+
+	<div class="Login-box">
+		<img class="avatar" src="img/logo.jpg" alt="Logo de FAzt">
+		<h1>Login Here</h1>
+		<form action="Muro.html">
+			<!-- USERNAME -->
+			<label for="username">Username</label>
+			<input type="text" id="nombre" name="nombre" placeholder="Enter Username" required/>
+
+			<!-- PASSWORD -->
+			<label for="password">Password</label>
+			<input type="password" id="contra" name="contra" placeholder="Enter Password" required="/">
+			
+			<input type="submit" value="Log in" onclick="comparar()"/>
+
+			<a href="Registro.html">Don't have an account?</a>
+		</form>
+	</div>
+
+</body>
+</html>
